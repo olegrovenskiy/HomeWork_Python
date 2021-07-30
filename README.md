@@ -74,16 +74,16 @@
 
   Скрипт проверки IP адресов
 
-  #!/usr/bin/env python3
-
-  print ("hello")
-  import socket
-  i=0
-  oldaddr = ["74.125.131.194", "142.250.150.19", "173.194.220.100"]
-  
-  urls = ["drive.google.com", "mail.google.com", "google.com"]
-  
-  while i<3:
+  	#!/usr/bin/env python3
+	
+  	print ("hello")
+ 	 import socket
+ 	 i=0
+ 	 oldaddr = ["74.125.131.194", "142.250.150.19", "173.194.220.100"]
+  	
+ 	 urls = ["drive.google.com", "mail.google.com", "google.com"]
+  	
+ 	 while i<3:
   
           ipaddr = socket.gethostbyname(urls[i])
           if ipaddr != oldaddr[i]:
