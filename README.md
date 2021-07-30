@@ -76,7 +76,6 @@
 
   	#!/usr/bin/env python3
 	
-  	print ("hello")
  	 import socket
  	 i=0
  	 oldaddr = ["74.125.131.194", "142.250.150.19", "173.194.220.100"]
